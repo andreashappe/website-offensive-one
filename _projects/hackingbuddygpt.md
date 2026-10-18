@@ -3,6 +3,7 @@ layout: page
 title: hackingBuddyGPT
 description: helping security researchers use LLMs for hacking in 50 lines of code or less
 img: assets/img/projects/hackingbuddygpt.png
+github: https://github.com/ipa-lab/hackingBuddyGPT
 importance: 1
 category: LLMs for Offensive Security
 related_publications: true
@@ -16,3 +17,8 @@ Agents built on hackingBuddyGPT back several of my papers, including the origina
 
 - Source: [github.com/ipa-lab/hackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT)
 - Documentation: [docs.hackingbuddy.ai](https://docs.hackingbuddy.ai)
+
+<!-- live GitHub stats for the repository (stars, forks, language); hidden if the stats service is unreachable -->
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center" style="max-width: 420px">
+  {% include repository/repo.liquid repository="ipa-lab/hackingBuddyGPT" %}
+</div>

@@ -1,12 +1,6 @@
+# Used by the `repository/repo.liquid` include, which the project pages embed to show
+# live GitHub stats (stars, forks, language) for the repositories they describe.
 github_users:
   - andreashappe
 
 repo_description_lines_max: 2
-
-# Mirrors the repositories pinned on https://github.com/andreashappe
-github_repos:
-  - ipa-lab/hackingBuddyGPT
-  - andreashappe/cochise
-  - OWASP/www-project-proactive-controls
-  - OWASP/www-project-operational-technology-top-10
-  - ait-crypto/archistar-smc

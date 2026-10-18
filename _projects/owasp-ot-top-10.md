@@ -3,6 +3,7 @@ layout: page
 title: OWASP OT Top 10
 description: the most critical security risks for operational technology
 img: assets/img/projects/www-project-operational-technology-top-10.png
+github: https://github.com/OWASP/www-project-operational-technology-top-10
 importance: 1
 category: OWASP
 ---
@@ -13,3 +14,8 @@ I founded the project in 2024 and lead it.
 
 - Project page: [owasp.org/www-project-operational-technology-top-10](https://owasp.org/www-project-operational-technology-top-10/)
 - Source: [github.com/OWASP/www-project-operational-technology-top-10](https://github.com/OWASP/www-project-operational-technology-top-10)
+
+<!-- live GitHub stats for the repository (stars, forks, language); hidden if the stats service is unreachable -->
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center" style="max-width: 420px">
+  {% include repository/repo.liquid repository="OWASP/www-project-operational-technology-top-10" %}
+</div>

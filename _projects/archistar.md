@@ -3,6 +3,7 @@ layout: page
 title: Archistar
 description: secure multi-cloud storage with secret sharing and Byzantine fault tolerance
 img:
+github: https://github.com/ait-crypto/archistar-smc
 importance: 2
 category: AIT
 related_publications: true
@@ -13,3 +14,8 @@ related_publications: true
 I was software architect on the project (2013–2015) and responsible for the architecture and implementation of the storage system. The open-source secret-sharing library that came out of it, [archistar-smc](https://github.com/ait-crypto/archistar-smc) (Java), is still available, and the ideas were carried forward into PRISMACLOUD.
 
 Related publications: the architecture in {% cite loruenser2015archistar %}, the threat of malicious clients in {% cite happe2016malicious %}, and the S3-compatible backup proxy that plugs multi-cloud storage into legacy enterprise systems in {% cite happe2017archistar %}.
+
+<!-- live GitHub stats for the repository (stars, forks, language); hidden if the stats service is unreachable -->
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center" style="max-width: 420px">
+  {% include repository/repo.liquid repository="ait-crypto/archistar-smc" %}
+</div>

@@ -14,18 +14,14 @@ cv:
 
   sections:
     Experience:
-      - company: Zenity
-        position: Research Consultant (contract)
-        start_date: 2025-12
-        end_date: present
-        summary: Research on AI agent security.
-
       - company: offensive.one GmbH
         position: Founder
         location: Vienna, Austria
         start_date: 2025
         end_date: present
         summary: Helping companies improve their security posture and secure software development practice ("left-shifting" security), with a focus on the intersection between AI and security.
+        highlights:
+          - "Zenity (since December 2025): contract research on AI agent security."
 
       - company: TÜV Süd
         position: ISO 27001 Auditor
@@ -39,29 +35,6 @@ cv:
         summary: Helping companies improve their security posture and secure software development practice ("left-shifting" security).
         highlights:
           - "dataspot. gmbh (2023–2024): improving the security posture and accompanying the ISO 27001 certification."
-          - "TTTech Industrial Automation AG (2022–2023): cybersecurity training for developers."
-
-      - company: GitHub
-        position: GitHub AI Accelerator, Cohort of 2024
-        start_date: 2024-04
-        end_date: 2024-07
-        summary: "Shaping the Future of Open-Source AI. Participating project: hackingBuddyGPT."
-
-      - company: FH Technikum Wien
-        position: Lecturer
-        location: Vienna, Austria
-        start_date: 2019
-        end_date: 2023
-        summary: Web Security, Secure Operating Systems, Web Application Security.
-        highlights:
-          - Supervised ~10 master's theses, most completed with distinction.
-          - Team leader of the Linux and Web blue teams at the NATO Locked Shields Partner Event 2019 (2nd place).
-          - "Author of the German textbook *Einführung in die Web Application Security* (2019, https://amzn.to/2ZqysuD)."
-
-      - company: We Are Developers
-        position: Sounding Board Security
-        start_date: 2019
-        end_date: 2019
 
       - company: CoreTEC GmbH
         position: Senior Security Consultant
@@ -93,22 +66,17 @@ cv:
         end_date: 2007
         summary: Linux and Microsoft Windows systems.
 
-      - company: TU Wien
-        position: Tutor
-        location: Vienna, Austria
-        start_date: 2004
-        end_date: 2006
-        summary: Tutor for "Programming 101" and "Compiler Design" (Compilerbau).
-
     Education:
       - institution: TU Wien
         location: Vienna, Austria
         url: https://www.tuwien.at/
         area: Computer Sciences — Usage of LLMs for Offensive Security
         studyType: PhD
-        summary: Doctoral programme in Engineering Sciences.
+        summary: Doctoral programme in Engineering Sciences, advised by Jürgen Cito.
         start_date: 2022
         end_date: present
+        highlights:
+          - "GitHub AI Accelerator, cohort of 2024 (April–July): participating project hackingBuddyGPT, the research framework behind the PhD experiments."
 
       - institution: TU Wien
         location: Vienna, Austria
@@ -134,6 +102,32 @@ cv:
         studyType: Matura
         start_date: 1996
         end_date: 2001
+
+    Teaching and Training:
+      - company: FH Technikum Wien
+        position: Lecturer
+        location: Vienna, Austria
+        start_date: 2019
+        end_date: 2023
+        summary: Courses on Web Security, Secure Operating Systems and Web Application Security.
+        highlights:
+          - Supervised ~10 master's theses, most completed with distinction.
+          - Team leader of the Linux and Web blue teams at the NATO Locked Shields Partner Event 2019 (2nd place).
+          - "Author of the German textbook *Einführung in die Web Application Security* (2019, https://amzn.to/2ZqysuD)."
+
+      - company: TTTech Industrial Automation AG
+        position: Corporate Trainer
+        location: Vienna, Austria
+        start_date: 2022
+        end_date: 2023
+        summary: Design and delivery of cybersecurity training for software developers.
+
+      - company: TU Wien
+        position: Tutor
+        location: Vienna, Austria
+        start_date: 2004
+        end_date: 2006
+        summary: Tutor for "Programming 101" and "Compiler Design" (Compilerbau).
 
     Publications:
       - title: "Can LLMs Hack Enterprise Networks? Autonomous Assumed Breach Penetration-Testing Active Directory Networks"
