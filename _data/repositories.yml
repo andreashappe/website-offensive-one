@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - andreashappe
 
 repo_description_lines_max: 2
 
+# Mirrors the repositories pinned on https://github.com/andreashappe
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ipa-lab/hackingBuddyGPT
+  - andreashappe/cochise
+  - OWASP/www-project-proactive-controls
+  - OWASP/www-project-operational-technology-top-10
+  - ait-crypto/archistar-smc

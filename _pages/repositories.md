@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+description: open-source projects I author or maintain — LLM-driven offensive security tooling, OWASP projects and secure multi-cloud storage.
 nav: true
 nav_order: 4
 ---

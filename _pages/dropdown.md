@@ -1,7 +1,7 @@
 ---
 layout: page
 title: submenus
-nav: true
+nav: false # sample dropdown (links to the hidden blog); set to true to show it
 nav_order: 8
 dropdown: true
 children:

@@ -1,189 +1,469 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Andreas Happe
+  label: Security Researcher & Consultant
+  email: andreas@offensive.one
+  location: Vienna, Austria
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >-
+    Founder of offensive.one, PhD student at TU Wien researching the use of large language models for offensive security,
+    and ISO 27001 auditor. Twenty years in security engineering, penetration testing and secure software development.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: andreashappe
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Zenity
+        position: Research Consultant (contract)
+        start_date: 2025-12
+        end_date: present
+        summary: Research on AI agent security.
+
+      - company: offensive.one GmbH
+        position: Founder
+        location: Vienna, Austria
+        start_date: 2025
+        end_date: present
+        summary: Helping companies improve their security posture and secure software development practice ("left-shifting" security), with a focus on the intersection between AI and security.
+
+      - company: TÜV Süd
+        position: ISO 27001 Auditor
+        start_date: 2025
+        end_date: present
+
+      - company: Security Freelancer
+        position: Supporting Application Security
+        start_date: 2021
+        end_date: 2025
+        summary: Helping companies improve their security posture and secure software development practice ("left-shifting" security).
         highlights:
-          - Relativity
-          - Description 2.
+          - "dataspot. gmbh (2023–2024): improving the security posture and accompanying the ISO 27001 certification."
+          - "TTTech Industrial Automation AG (2022–2023): cybersecurity training for developers."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: GitHub
+        position: GitHub AI Accelerator, Cohort of 2024
+        start_date: 2024-04
+        end_date: 2024-07
+        summary: "Shaping the Future of Open-Source AI. Participating project: hackingBuddyGPT."
+
+      - company: FH Technikum Wien
+        position: Lecturer
+        location: Vienna, Austria
+        start_date: 2019
+        end_date: 2023
+        summary: Web Security, Secure Operating Systems, Web Application Security.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Supervised ~10 master's theses, most completed with distinction.
+          - Team leader of the Linux and Web blue teams at the NATO Locked Shields Partner Event 2019 (2nd place).
+          - "Author of the German textbook *Einführung in die Web Application Security* (2019, https://amzn.to/2ZqysuD)."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: We Are Developers
+        position: Sounding Board Security
+        start_date: 2019
+        end_date: 2019
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: CoreTEC GmbH
+        position: Senior Security Consultant
+        location: Vienna, Austria
+        start_date: 2012
+        end_date: 2022
+        summary: Security assessments, penetration tests and secure software development training.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Austrian Institute of Technology
+        position: Software Engineer / Software Architect
+        location: Vienna, Austria
+        start_date: 2006
+        end_date: 2018
+        summary: Twelve years on security research projects, first as a contractor (2006–2012), then as software architect (2013–2015) and software engineer (2015–2018).
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "2015–2018: Design, implementation and maintenance of privacy-preserving multi-cloud storage, identity management and data-sharing systems (PRISMACLOUD and CREDENTIAL, both Horizon 2020)."
+          - "2012–2015: Architecture and implementation of the Archistar secure multi-cloud storage system."
+          - "2006–2012: Development and maintenance of the networking software of the SECOQC quantum key distribution network."
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Ruby on Rails Freelancer
+        position: Developer
+        start_date: 2009
+        end_date: 2015
+        summary: Design, development and maintenance of Ruby on Rails-based web applications.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Infotech GmbH
+        position: System Administrator
+        start_date: 2001
+        end_date: 2007
+        summary: Linux and Microsoft Windows systems.
+
+      - company: TU Wien
+        position: Tutor
+        location: Vienna, Austria
+        start_date: 2004
+        end_date: 2006
+        summary: Tutor for "Programming 101" and "Compiler Design" (Compilerbau).
+
+    Education:
+      - institution: TU Wien
+        location: Vienna, Austria
+        url: https://www.tuwien.at/
+        area: Computer Sciences — Usage of LLMs for Offensive Security
+        studyType: PhD
+        summary: Doctoral programme in Engineering Sciences.
+        start_date: 2022
+        end_date: present
+
+      - institution: TU Wien
+        location: Vienna, Austria
+        url: https://www.tuwien.at/
+        area: Software Engineering & Internet Computing
+        studyType: MSc
+        start_date: 2006
+        end_date: 2009
+        highlights:
+          - "Master's thesis: *Agile Provenance* — automated transparent provenance gathering and analysis within Ruby on Rails. Supervisors: S. Dustdar, L. Juszczyk, H.-L. Truong."
+
+      - institution: TU Wien
+        location: Vienna, Austria
+        url: https://www.tuwien.at/
+        area: Software & Information Engineering
+        studyType: BSc
+        start_date: 2002
+        end_date: 2006
+
+      - institution: HTBLVA Villach
+        location: Villach, Austria
+        area: EDV und Organisation
+        studyType: Matura
+        start_date: 1996
+        end_date: 2001
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Can LLMs Hack Enterprise Networks? Autonomous Assumed Breach Penetration-Testing Active Directory Networks"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Andreas Happe
+          - Jürgen Cito
+        publisher: ACM Transactions on Software Engineering and Methodology (TOSEM); journal-first at ICSE 2026
+        releaseDate: 2026
+        url: https://doi.org/10.1145/3766895
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "LLMs as Hackers: Autonomous Linux Privilege Escalation Attacks"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Andreas Happe
+          - Aaron Kaplan
+          - Jürgen Cito
+        publisher: Empirical Software Engineering (EMSE); journal-first at ASE 2026
+        releaseDate: 2026
+        url: https://doi.org/10.1007/s10664-025-10758-3
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Cochise: A Reference Harness for Autonomous Penetration Testing"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Andreas Happe
+          - Jürgen Cito
+        publisher: ASE 2026, Tool Demonstrations Track, Munich, Germany
+        releaseDate: 2026
+        url: https://doi.org/10.1145/3832783.3834651
+
+      - title: "Adversarial Bug Reports as a Security Risk in Language Model-Based Automated Program Repair"
+        authors:
+          - Piotr Przymus
+          - Andreas Happe
+          - Jürgen Cito
+        publisher: MSR 2026
+        releaseDate: 2026
+        url: https://doi.org/10.1145/3793302.3793352
+
+      - title: "ATLAS: Discovering Agent Strategies through LLM-Guided Abstraction and Automata Learning"
+        authors:
+          - Ignacio D. Lopez-Miguel
+          - Andreas Happe
+          - Jürgen Cito
+          - Ezio Bartocci
+          - Bettina Könighofer
+          - Martin Tappler
+        publisher: MODELS 2026, New Ideas and Emerging Results Track
+        releaseDate: 2026
+        url: https://doi.org/10.1145/3822455.3838777
+
+      - title: "Towards Reliable Local Security Agents: Verifiable Post-Training for Linux Privilege Escalation"
+        authors:
+          - Philipp Normann
+          - Andreas Happe
+          - Jürgen Cito
+          - Daniel Arp
+        publisher: ACSAC 2026 (accepted)
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2603.17673
+
+      - title: "The Ethics of Autonomous AI Agents for Offensive Security"
+        authors:
+          - Andreas Happe
+          - Jürgen Cito
+          - Jasmin Wachter
+        publisher: FAIEMA 2026
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2607.20255
+
+      - title: "Enhancing Linux Privilege Escalation Attack Capabilities of Local LLM Agents"
+        authors:
+          - Benjamin Probst
+          - Andreas Happe
+          - Jürgen Cito
+        publisher: RAISE Workshop at ESORICS 2026
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2604.27143
+
+      - title: "Recognition Without Mitigation: Ethical Frameworks in Autonomous Offensive-LLM Agent Research"
+        authors:
+          - Andreas Happe
+          - Jürgen Cito
+        publisher: AutonomousCyber Workshop at ESORICS 2026
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2506.08693
+
+      - title: "Benchmarking Practices in LLM-driven Offensive Security: Testbeds, Metrics, and Experiment Design"
+        authors:
+          - Andreas Happe
+          - Jürgen Cito
+        publisher: arXiv preprint; presented at DeMeSSAI 2025, Venice, Italy
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2504.10112
+
+      - title: "On the Surprising Efficacy of LLMs for Penetration-Testing"
+        authors:
+          - Andreas Happe
+          - Jürgen Cito
+        publisher: arXiv preprint
+        releaseDate: 2025
+        url: https://arxiv.org/abs/2507.00829
+
+      - title: "Getting pwn'd by AI: Penetration Testing with Large Language Models"
+        authors:
+          - Andreas Happe
+          - Jürgen Cito
+        publisher: ESEC/FSE 2023, Ideas, Visions and Reflections Track, San Francisco, USA
+        releaseDate: 2023
+        url: https://doi.org/10.1145/3611643.3613083
+
+      - title: "Understanding Hackers' Work: An Empirical Study of Offensive Security Practitioners"
+        authors:
+          - Andreas Happe
+          - Jürgen Cito
+        publisher: ESEC/FSE 2023, Industry Track, San Francisco, USA
+        releaseDate: 2023
+        url: https://doi.org/10.1145/3611643.3613900
+
+      - title: "Unikernels for Cloud Architectures: How Single Responsibility can Reduce Complexity, Thus Improving Enterprise Cloud Security"
+        authors:
+          - Andreas Happe
+          - Bob Duncan
+          - Alfred Bratterud
+        publisher: COMPLEXIS 2017, Porto, Portugal
+        releaseDate: 2017
+
+      - title: "The Archistar Secret-Sharing Backup Proxy"
+        authors:
+          - Andreas Happe
+          - Florian Wohner
+          - Thomas Lorünser
+        publisher: SECPID / ARES 2017, Calabria, Italy
+        releaseDate: 2017
+
+      - title: "Enterprise IoT Security and Scalability: How Unikernels can Improve the Status Quo"
+        authors:
+          - Bob Duncan
+          - Andreas Happe
+          - Alfred Bratterud
+        publisher: IEEE/ACM UCC 2016, Shanghai, China
+        releaseDate: 2016
+
+      - title: "Enhancing Cloud Security and Privacy: Time for a New Approach?"
+        authors:
+          - Bob Duncan
+          - Alfred Bratterud
+          - Andreas Happe
+        publisher: INTECH 2016, Dublin, Ireland
+        releaseDate: 2016
+
+      - title: "Exchanging Database Writes with Modern Crypto"
+        authors:
+          - Andreas Happe
+          - Thomas Lorünser
+        publisher: IARIA CYBER 2016, Venice, Italy
+        releaseDate: 2016
+
+      - title: "Malicious Clients in Distributed Secret Sharing Based Storage Networks"
+        authors:
+          - Andreas Happe
+          - Stephan Krenn
+          - Thomas Lorünser
+        publisher: Security Protocols Workshop 2016, Brno, Czech Republic
+        releaseDate: 2016
+
+      - title: "ARCHISTAR: Towards Secure and Robust Cloud Based Data Sharing"
+        authors:
+          - Thomas Lorünser
+          - Andreas Happe
+          - Daniel Slamanig
+        publisher: IEEE CloudCom 2015, Vancouver, Canada
+        releaseDate: 2015
+
+      - title: "New Release of an Open Source QKD Software: Design and Implementation of New Algorithms, Modularization and Integration with IPSec"
+        authors:
+          - Oliver Maurhart
+          - Christoph Pacher
+          - Andreas Happe
+          - Thomas Lorünser
+          - Cristina Tamas
+          - Andreas Poppe
+          - Momtchil Peev
+        publisher: QCrypt 2013
+        releaseDate: 2013
+
+      - title: "QKD Software Architecture and System Integration with Classical Communication Infrastructure"
+        authors:
+          - Oliver Maurhart
+          - Christoph Pacher
+          - Andreas Happe
+          - Thomas Lorünser
+          - Cristina Tamas
+          - Andreas Poppe
+          - Momtchil Peev
+        publisher: QCrypt 2012
+        releaseDate: 2012
+
+      - title: "The SECOQC Quantum Key Distribution Network in Vienna"
+        authors:
+          - Momtchil Peev
+          - Christoph Pacher
+          - Romain Alléaume
+          - et al.
+        publisher: New Journal of Physics
+        releaseDate: 2009
+        url: https://doi.org/10.1088/1367-2630/11/7/075001
+
+    Projects:
+      - name: hackingBuddyGPT
+        summary: Original author. A research framework for building LLM-driven offensive-security agents in 50 lines of Python or less; backs several of my papers and has grown into a community project.
+        highlights:
+          - Selected for the GitHub AI Accelerator 2024.
+        start_date: 2023
+        end_date: present
+
+      - name: Cochise
+        summary: Open-source reference harness for autonomous assumed-breach penetration testing of Active Directory networks, evaluated against the GOAD testbed. Accompanying paper in ACM TOSEM, tool paper at ASE 2026.
+        start_date: 2025
+        end_date: present
+
+      - name: OWASP Operational Technology (OT) Top 10
+        summary: Project founder and leader. Awareness document listing the most critical security risks in operational technology.
+        start_date: 2024
+        end_date: present
+
+      - name: OWASP Top 10 Proactive Controls
+        summary: Project leader. The developer-facing list of the ten security techniques every software project should build in.
+        start_date: 2023
+        end_date: present
+
+      - name: PRISMACLOUD (Horizon 2020)
+        summary: Design, development and maintenance of the privacy-preserving multi-cloud storage prototype. EU Horizon 2020 project coordinated by AIT (grant 644962).
+        start_date: 2015
+        end_date: 2018
+
+      - name: CREDENTIAL (Horizon 2020)
+        summary: Development of the data-sharing and identity-management components of a secure cloud identity wallet based on proxy re-encryption. EU Horizon 2020 project coordinated by AIT (grant 653454).
+        start_date: 2015
+        end_date: 2018
+
+      - name: Archistar
+        summary: Architecture and implementation of a secure multi-cloud storage system combining Byzantine fault tolerance with secret sharing. AIT research project funded by the Austrian BMVIT.
+        start_date: 2012
+        end_date: 2015
+
+      - name: SECOQC
+        summary: Networking components (Linux, Python, C) of the first metropolitan quantum key distribution network, demonstrated in Vienna in 2008; afterwards maintenance and further development of the open-source QKD software stack.
+        start_date: 2006
+        end_date: 2012
+
+    Volunteer:
+      - company: OWASP Foundation
+        position: Project and Chapter Leader
+        start_date: 2017
+        end_date: present
+        highlights:
+          - "2024–present: Founder and leader, OWASP Operational Technology (OT) Top 10."
+          - "2023–present: Project leader, OWASP Top 10 Proactive Controls."
+          - "2024–2026: Founder and leader, OWASP Chapter Klagenfurt."
+          - "2019–2023: Leader, OWASP Chapter Vienna."
+          - "2017: Top contributor, OWASP Mobile Security Testing Guide (MSTG)."
+
+      - company: Austrian Standards Institute
+        position: Standardization work
+        start_date: 2016
+        end_date: 2026
+        highlights:
+          - "2024–2026: ISO 42001 — AG001.42, mirror group ISO/CEN 42001."
+          - "2016–2019: ÖNORM A77.00 \"Sichere Webapplikationen\" — Austrian standard on development and maintenance of secure web applications."
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Security Engineering
+        keywords: "Design, execution and documentation of penetration tests; primary focus on web applications as well as Android/iOS mobile applications; design and execution of security training events"
+
+      - name: Secure Software Engineering
+        keywords: "Assessment, design and implementation of secure IT systems; review and improvement of secure software development lifecycles; automated tooling in the CI/CD/SAST area; development in compliance with ÖNORM A77.00, ISO 27001 and CMMC"
+
+      - name: Software Development
+        keywords: "Procedural, object-oriented and functional paradigms; expert in Ruby on Rails, Python, C, Go, Java; proficient in Scala, JavaScript, Rust"
 
     Languages:
       - name: German
-        summary: "Native speaker"
+        summary: "Native language"
 
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        summary: "Full professional proficiency"
 
     Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: ISO 22301 Practitioner
+        date: 2026
+        issuer: TRECCERT
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: GitHub Advanced Security Certified Practitioner
+        date: 2025
+        issuer: GitHub
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: ISMS-Manager & -Auditor nach ISO 27001
+        date: 2024
+        issuer: TÜV AUSTRIA
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: AWS Certified Developer — Associate
+        date: 2024
+        issuer: Amazon
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: AWS Certified Solutions Architect — Associate
+        date: 2024
+        issuer: Amazon
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Certified OT Security Practitioner (COSP)
+        date: 2024
+        issuer: Limes Security
+
+      - name: Certified Azure Red Team Professional (CARTP)
+        date: 2024
+        issuer: Altered Security
+
+      - name: Certified Red Team Expert (CRTE)
+        date: 2024
+        issuer: Altered Security
+
+      - name: Investigating Windows Endpoints (Gold)
+        date: 2023
+        issuer: 13Cubed
+
+      - name: Practical Network Penetration Tester (PNPT)
+        date: 2023
+        issuer: TCM Security
+
+      - name: NIS-G Auditor für Kritische Infrastruktur
+        date: 2020
+        issuer: NIS-G
+
+      - name: Offensive Security Certified Professional (OSCP)
+        date: 2015
+        issuer: Offensive Security

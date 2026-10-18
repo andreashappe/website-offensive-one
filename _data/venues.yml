@@ -1,9 +1,42 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"FSE":
+  url: https://conf.researchr.org/series/fse
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TOSEM":
+  url: https://dl.acm.org/journal/tosem
+  color: "#00369f"
 
-"Vision":
+"EMSE":
+  url: https://link.springer.com/journal/10664
+  color: "#009f36"
+
+"ASE":
+  url: https://conf.researchr.org/series/ase
+  color: "#00369f"
+
+"MSR":
+  url: https://conf.researchr.org/series/msr
+  color: "#00369f"
+
+"MODELS":
+  url: https://conf.researchr.org/series/models
+  color: "#00369f"
+
+"ACSAC":
+  url: https://www.acsac.org/
+  color: "#9f0036"
+
+"ESORICS":
+  url: https://esorics.org/
+  color: "#9f0036"
+
+"FAIEMA":
+  color: "#9f0036"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+
+"NJP":
+  url: https://iopscience.iop.org/journal/1367-2630
   color: "#009f36"
