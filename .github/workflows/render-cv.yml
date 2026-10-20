@@ -42,7 +42,29 @@ jobs:
             echo "Missing RenderCV config file!"
             exit 1
           fi
-          rendercv render $cv_file --settings $settings
+          # _data/cv.yml also feeds the web CV (al_folio_cv), which uses fields RenderCV rejects.
+          # Render from a translated copy one level deep so the ../assets paths in settings.yaml still resolve.
+          mkdir -p .rendercv
+          python - "$cv_file" .rendercv/cv.yml <<'EOF'
+          import sys
+          import yaml
+
+          data = yaml.safe_load(open(sys.argv[1]))
+          cv = data["cv"]
+          cv.pop("image", None)
+          if "label" in cv:
+              cv["headline"] = cv.pop("label")
+          if "summary" in cv:
+              cv["sections"] = {"Summary": [cv.pop("summary")], **cv["sections"]}
+          for entry in cv["sections"].get("Publications", []):
+              if "releaseDate" in entry:
+                  entry["date"] = entry.pop("releaseDate")
+              if "publisher" in entry:
+                  entry["journal"] = entry.pop("publisher")
+          yaml.safe_dump(data, open(sys.argv[2], "w"), allow_unicode=True, sort_keys=False)
+          EOF
+          rendercv render .rendercv/cv.yml --settings $settings
+          rm -rf .rendercv
           rm assets/rendercv/rendercv_output/*.typ
       - name: Upload rendercv_output as an artifact
         uses: actions/upload-artifact@v7
@@ -54,5 +76,4 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add -A
-          git commit -m "chore: render the latest CV"
-          git push
+          git diff --cached --quiet || { git commit -m "chore: render the latest CV" && git push; }

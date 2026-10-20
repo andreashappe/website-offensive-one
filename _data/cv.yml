@@ -28,6 +28,13 @@ cv:
         start_date: 2025
         end_date: present
 
+      - company: TTTech Industrial Automation AG
+        position: Corporate Trainer
+        location: Vienna, Austria
+        start_date: 2022
+        end_date: 2023
+        summary: Design and delivery of cybersecurity training for software developers.
+
       - company: Security Freelancer
         position: Supporting Application Security
         start_date: 2021
@@ -35,6 +42,17 @@ cv:
         summary: Helping companies improve their security posture and secure software development practice ("left-shifting" security).
         highlights:
           - "dataspot. gmbh (2023–2024): improving the security posture and accompanying the ISO 27001 certification."
+
+      - company: FH Technikum Wien
+        position: Lecturer
+        location: Vienna, Austria
+        start_date: 2019
+        end_date: 2023
+        summary: Courses on Web Security, Secure Operating Systems and Web Application Security.
+        highlights:
+          - Supervised ~10 master's theses, most completed with distinction.
+          - Team leader of the Linux and Web blue teams at the NATO Locked Shields Partner Event 2019 (2nd place).
+          - "Author of the German textbook *Einführung in die Web Application Security* (2019, https://amzn.to/2ZqysuD)."
 
       - company: CoreTEC GmbH
         position: Senior Security Consultant
@@ -60,11 +78,87 @@ cv:
         end_date: 2015
         summary: Design, development and maintenance of Ruby on Rails-based web applications.
 
+      - company: TU Wien
+        position: Tutor
+        location: Vienna, Austria
+        start_date: 2004
+        end_date: 2006
+        summary: Tutor for "Programming 101" and "Compiler Design" (Compilerbau).
+
       - company: Infotech GmbH
         position: System Administrator
         start_date: 2001
         end_date: 2007
         summary: Linux and Microsoft Windows systems.
+
+    Volunteer:
+      - company: OWASP Foundation
+        position: Project and Chapter Leader
+        start_date: 2017
+        end_date: present
+        highlights:
+          - "2024–present: Founder and leader, OWASP Operational Technology (OT) Top 10."
+          - "2023–present: Project leader, OWASP Top 10 Proactive Controls."
+          - "2024–2026: Founder and leader, OWASP Chapter Klagenfurt."
+          - "2019–2023: Leader, OWASP Chapter Vienna."
+          - "2017: Top contributor, OWASP Mobile Security Testing Guide (MSTG)."
+
+      - company: Austrian Standards Institute
+        position: Standardization work
+        start_date: 2016
+        end_date: 2026
+        highlights:
+          - "2024–2026: ISO 42001 — AG001.42, mirror group ISO/CEN 42001."
+          - "2016–2019: ÖNORM A77.00 \"Sichere Webapplikationen\" — Austrian standard on development and maintenance of secure web applications."
+
+    Certificates:
+      - name: ISO 22301 Practitioner
+        date: 2026
+        issuer: TRECCERT
+
+      - name: GitHub Advanced Security Certified Practitioner
+        date: 2025
+        issuer: GitHub
+
+      - name: ISMS-Manager & -Auditor nach ISO 27001
+        date: 2024
+        issuer: TÜV AUSTRIA
+
+      - name: AWS Certified Developer — Associate
+        date: 2024
+        issuer: Amazon
+
+      - name: AWS Certified Solutions Architect — Associate
+        date: 2024
+        issuer: Amazon
+
+      - name: Certified OT Security Practitioner (COSP)
+        date: 2024
+        issuer: Limes Security
+
+      - name: Certified Azure Red Team Professional (CARTP)
+        date: 2024
+        issuer: Altered Security
+
+      - name: Certified Red Team Expert (CRTE)
+        date: 2024
+        issuer: Altered Security
+
+      - name: Investigating Windows Endpoints (Gold)
+        date: 2023
+        issuer: 13Cubed
+
+      - name: Practical Network Penetration Tester (PNPT)
+        date: 2023
+        issuer: TCM Security
+
+      - name: NIS-G Auditor für Kritische Infrastruktur
+        date: 2020
+        issuer: NIS-G
+
+      - name: Offensive Security Certified Professional (OSCP)
+        date: 2015
+        issuer: Offensive Security
 
     Education:
       - institution: TU Wien
@@ -102,32 +196,6 @@ cv:
         studyType: Matura
         start_date: 1996
         end_date: 2001
-
-    Teaching and Training:
-      - company: FH Technikum Wien
-        position: Lecturer
-        location: Vienna, Austria
-        start_date: 2019
-        end_date: 2023
-        summary: Courses on Web Security, Secure Operating Systems and Web Application Security.
-        highlights:
-          - Supervised ~10 master's theses, most completed with distinction.
-          - Team leader of the Linux and Web blue teams at the NATO Locked Shields Partner Event 2019 (2nd place).
-          - "Author of the German textbook *Einführung in die Web Application Security* (2019, https://amzn.to/2ZqysuD)."
-
-      - company: TTTech Industrial Automation AG
-        position: Corporate Trainer
-        location: Vienna, Austria
-        start_date: 2022
-        end_date: 2023
-        summary: Design and delivery of cybersecurity training for software developers.
-
-      - company: TU Wien
-        position: Tutor
-        location: Vienna, Austria
-        start_date: 2004
-        end_date: 2006
-        summary: Tutor for "Programming 101" and "Compiler Design" (Compilerbau).
 
     Publications:
       - title: "Can LLMs Hack Enterprise Networks? Autonomous Assumed Breach Penetration-Testing Active Directory Networks"
@@ -376,26 +444,6 @@ cv:
         start_date: 2006
         end_date: 2012
 
-    Volunteer:
-      - company: OWASP Foundation
-        position: Project and Chapter Leader
-        start_date: 2017
-        end_date: present
-        highlights:
-          - "2024–present: Founder and leader, OWASP Operational Technology (OT) Top 10."
-          - "2023–present: Project leader, OWASP Top 10 Proactive Controls."
-          - "2024–2026: Founder and leader, OWASP Chapter Klagenfurt."
-          - "2019–2023: Leader, OWASP Chapter Vienna."
-          - "2017: Top contributor, OWASP Mobile Security Testing Guide (MSTG)."
-
-      - company: Austrian Standards Institute
-        position: Standardization work
-        start_date: 2016
-        end_date: 2026
-        highlights:
-          - "2024–2026: ISO 42001 — AG001.42, mirror group ISO/CEN 42001."
-          - "2016–2019: ÖNORM A77.00 \"Sichere Webapplikationen\" — Austrian standard on development and maintenance of secure web applications."
-
     Skills:
       - name: Security Engineering
         keywords: "Design, execution and documentation of penetration tests; primary focus on web applications as well as Android/iOS mobile applications; design and execution of security training events"
@@ -412,52 +460,3 @@ cv:
 
       - name: English
         summary: "Full professional proficiency"
-
-    Certificates:
-      - name: ISO 22301 Practitioner
-        date: 2026
-        issuer: TRECCERT
-
-      - name: GitHub Advanced Security Certified Practitioner
-        date: 2025
-        issuer: GitHub
-
-      - name: ISMS-Manager & -Auditor nach ISO 27001
-        date: 2024
-        issuer: TÜV AUSTRIA
-
-      - name: AWS Certified Developer — Associate
-        date: 2024
-        issuer: Amazon
-
-      - name: AWS Certified Solutions Architect — Associate
-        date: 2024
-        issuer: Amazon
-
-      - name: Certified OT Security Practitioner (COSP)
-        date: 2024
-        issuer: Limes Security
-
-      - name: Certified Azure Red Team Professional (CARTP)
-        date: 2024
-        issuer: Altered Security
-
-      - name: Certified Red Team Expert (CRTE)
-        date: 2024
-        issuer: Altered Security
-
-      - name: Investigating Windows Endpoints (Gold)
-        date: 2023
-        issuer: 13Cubed
-
-      - name: Practical Network Penetration Tester (PNPT)
-        date: 2023
-        issuer: TCM Security
-
-      - name: NIS-G Auditor für Kritische Infrastruktur
-        date: 2020
-        issuer: NIS-G
-
-      - name: Offensive Security Certified Professional (OSCP)
-        date: 2015
-        issuer: Offensive Security
