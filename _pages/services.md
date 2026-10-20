@@ -2,49 +2,70 @@
 layout: page
 permalink: /services/
 title: services
-description: offensive security, source-code audits and ISO 27001 consulting through offensive.one GmbH.
+description: AI-system threat modeling, agents for security, penetration testing, source-code audits and NIS2/ISO 27001 advisory through offensive.one GmbH.
 nav: true
 nav_order: 4
 ---
 
-**A good offense is the best defense.** At [offensive.one](https://offensive.one) we don't just defend — we think like attackers. We simulate real-world cyber threats to expose vulnerabilities before adversaries can exploit them, giving your organization the proactive edge it needs to stay secure.
+**A good offense is the best defense.** Through [offensive.one](https://offensive.one) I help companies find and fix security problems before attackers do. Every engagement is senior-led: you work directly with me, from scoping to the final debrief. The methods come from two decades of security practice and from my [research]({{ '/publications/' | relative_url }}) and [open-source tooling]({{ '/projects/' | relative_url }}) on LLM-driven offensive security.
+
+## AI-System Threat Modeling
+
+LLM applications and agents add new trust boundaries: model output that drives tools, context pulled from documents and the web, and permissions that are often much broader than the task needs. I review the design of your AI system before it goes live, or before its next major change.
+
+- Map trust boundaries, data flows and the context sources (RAG, files, e-mail, web) your system consumes
+- Review tool scope and permissions: what an agent can reach, change or send on whose behalf
+- Trace how a single untrusted input can propagate through the system
+- Deliver a prioritised threat list with concrete architectural and operational controls
+
+## Agents for Security
+
+I build and evaluate LLM agents for offensive security, including [hackingBuddyGPT]({% link _projects/hackingbuddygpt.md %}) and [Cochise]({% link _projects/cochise.md %}). I help security teams apply that work to their own processes.
+
+- Identify where agents genuinely help in your security work, and where they do not
+- Prototype and evaluate agent-based automation against your own environment
+- Assess vendor claims about "autonomous pentesting" with reproducible, realistic testbeds
 
 ## Penetration Testing
 
-We simulate real-world cyberattacks to uncover weaknesses before criminals do. Penetration tests give you a clear view of your security posture and actionable steps to strengthen it.
+Manual, adversary-driven testing rather than scanner output.
 
-- Identify hidden vulnerabilities across networks, applications and systems
-- Test defenses against real-world attack techniques
-- Validate the effectiveness of security controls and monitoring
-- Meet compliance and regulatory requirements
-- Provide actionable insights to reduce risk and improve resilience
+- Web applications and APIs, cloud environments, internal networks and Active Directory
+- Assumed-breach scenarios starting from a single compromised account or host
+- Risk-ranked findings with proof-of-concepts and no CVSS inflation
+- A retest to verify that fixes work
+
+Certifications: OSCP, PNPT, CRTE, CARTP.
 
 ## Source-Code Audits
 
-We examine your application's codebase line by line to uncover hidden flaws. Code audits ensure secure, reliable software before it reaches production.
+A manual review of the code paths that matter, focused on the flaws automated tools miss.
 
-- Detect security vulnerabilities at the source level
-- Identify logic errors and unsafe coding practices
-- Validate adherence to secure coding standards
-- Reduce technical debt and long-term maintenance risks
-- Provide remediation guidance for developers to strengthen code security
+- Authorization and access-control logic, business-logic flaws, cryptography usage
+- Findings with concrete, code-level fix guidance for your developers
+- Secure-development recommendations based on the [OWASP Top 10 Proactive Controls]({% link _projects/owasp-proactive-controls.md %}), which I lead
 
-## ISO 27001 Consultancy
+## NIS2, ISO 27001 and ISO 42001
 
-We guide your organization through achieving and maintaining ISO 27001 compliance. We simplify the process, from gap analysis to certification.
+Pragmatic security management for organisations that need to comply without drowning in paperwork.
 
-- Assess your current security posture against ISO 27001 requirements
-- Develop tailored policies, controls and risk management frameworks
-- Support implementation of best practices across people, processes and technology
-- Prepare for external audits and streamline certification readiness
-- Ensure ongoing compliance through continuous improvement strategies
+- NIS2: whether and how the Austrian NISG 2026 applies to you, a gap analysis, and the risk-management measures it requires
+- ISO 27001: building an ISMS that fits your organisation, and preparing for the certification audit
+- ISO 42001: management systems for organisations that develop or use AI
+
+I am a certified ISO 27001 auditor. I do not audit organisations I have advised.
+
+## How Engagements Work
+
+- **Fixed-scope assessments** (penetration tests, code audits, threat models) end with a written report, a debrief and a retest.
+- **Ongoing work** (advisory, recurring testing) runs under a framework agreement and is billed monthly for the hours you approve.
 
 ## Contact and Next Steps
 
-No two customers have the same requirements, so we approach each project individually and tailor our services accordingly.
+No two customers have the same requirements, so I scope each project individually.
 
-Please contact us at [andreas@offensive.one](mailto:andreas@offensive.one). It is helpful to include a rough description of your project and any specific requirements you may have.
+Please contact me at [andreas@offensive.one](mailto:andreas@offensive.one) and include a rough description of your project and any specific requirements.
 
-Once we receive your inquiry, we will get back to you within 48 hours to schedule an initial consultation, typically by phone or video conference. During that consultation we discuss your specific needs and how we can assist you. Based on the outcome, we provide you with a tailored proposal outlining the next steps and how we can work together effectively.
+I will get back to you within two working days to schedule an initial call, by phone or video conference, to discuss your needs. Based on that conversation you receive a tailored proposal with the scope and next steps.
 
-Services are provided by Offensive.One GmbH under our [terms and conditions]({{ '/terms/' | relative_url }}). See also the [Impressum]({{ '/impressum/' | relative_url }}).
+Services are provided by Offensive.One GmbH under its [terms and conditions]({{ '/terms/' | relative_url }}). See also the [Impressum]({{ '/impressum/' | relative_url }}).
