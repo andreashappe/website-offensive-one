@@ -196,6 +196,8 @@ collections:
     output: true
   projects:
     output: true
+  services:
+    output: true
   teachings:
     output: true
 
