@@ -2,7 +2,7 @@
 layout: page
 permalink: /services/
 title: services
-description: AI-system threat modeling, agents for security, penetration testing, source-code audits and NIS2/ISO 27001 advisory through offensive.one GmbH.
+description: AI-system threat modeling, agents for security, penetration testing, source-code audits and ISO 27001 advisory through offensive.one GmbH.
 nav: true
 nav_order: 4
 ---
@@ -45,13 +45,13 @@ A manual review of the code paths that matter, focused on the flaws automated to
 - Findings with concrete, code-level fix guidance for your developers
 - Secure-development recommendations based on the [OWASP Top 10 Proactive Controls]({% link _projects/owasp-proactive-controls.md %}), which I lead
 
-## NIS2, ISO 27001 and ISO 42001
+## ISO 27001
 
 Pragmatic security management for organisations that need to comply without drowning in paperwork.
 
-- NIS2: whether and how the Austrian NISG 2026 applies to you, a gap analysis, and the risk-management measures it requires
-- ISO 27001: building an ISMS that fits your organisation, and preparing for the certification audit
-- ISO 42001: management systems for organisations that develop or use AI
+- Gap analysis of your current security practice against ISO 27001
+- Building an ISMS that fits your organisation: scope, risk assessment, policies and controls
+- Preparing for the certification audit
 
 I am a certified ISO 27001 auditor. I do not audit organisations I have advised.
 
