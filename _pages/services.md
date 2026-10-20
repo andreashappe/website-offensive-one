@@ -19,17 +19,13 @@ nav_order: 4
   </div>
 </div>
 
-## How Engagements Work
+## Contact and Next Steps
+
+No two customers have the same requirements, so I scope each project individually. Please contact me at [andreas@offensive.one](mailto:andreas@offensive.one) and include a rough description of your project and any specific requirements.
+
+I will get back to you within two working days to schedule an initial call, by phone or video conference, to discuss your needs. Based on that conversation you receive a tailored proposal in one of two forms:
 
 - **Fixed-scope assessments** (penetration tests, code audits, threat models) end with a written report, a debrief and a retest.
 - **Ongoing work** (advisory, recurring testing) runs under a framework agreement and is billed monthly for the hours you approve.
-
-## Contact and Next Steps
-
-No two customers have the same requirements, so I scope each project individually.
-
-Please contact me at [andreas@offensive.one](mailto:andreas@offensive.one) and include a rough description of your project and any specific requirements.
-
-I will get back to you within two working days to schedule an initial call, by phone or video conference, to discuss your needs. Based on that conversation you receive a tailored proposal with the scope and next steps.
 
 Services are provided by Offensive.One GmbH under its [terms and conditions]({{ '/terms/' | relative_url }}). See also the [Impressum]({{ '/impressum/' | relative_url }}).
