@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="4 30 480 480">
+  <!-- Agents for security: a person at a laptop working alongside a small robot agent, with a terminal
+       of checked-off steps. Style matches pentest.png, source-code.png, consultancy.png. -->
+  <g stroke="#111" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <!-- floating terminal panel -->
+    <rect x="28" y="36" width="236" height="150" rx="12" fill="#ececec" stroke="none" />
+    <rect x="44" y="52" width="204" height="118" rx="8" fill="#3a3a3a" stroke="none" />
+    <circle cx="60" cy="66" r="4" fill="#999" stroke="none" />
+    <circle cx="74" cy="66" r="4" fill="#999" stroke="none" />
+    <circle cx="88" cy="66" r="4" fill="#999" stroke="none" />
+    <g fill="none" stroke-width="4">
+      <path d="M58 90 L66 96 L58 102" stroke="#fff" />
+      <path d="M74 102 H88" stroke="#fff" />
+      <path d="M58 118 L63 123 L72 113" stroke="#fff" />
+      <path d="M82 118 H170" stroke="#999" />
+      <path d="M58 138 L63 143 L72 133" stroke="#fff" />
+      <path d="M82 138 H150" stroke="#999" />
+      <path d="M58 158 H66" stroke="#fff" />
+      <path d="M82 158 H128" stroke="#999" />
+    </g>
+
+    <!-- floor shadow -->
+    <ellipse cx="250" cy="500" rx="225" ry="9" fill="#d6d6d6" stroke="none" />
+
+    <!-- chair -->
+    <rect x="404" y="262" width="30" height="150" rx="12" fill="#3a3a3a" />
+    <path d="M372 420 L362 498 M430 420 L440 498" />
+    <rect x="356" y="404" width="86" height="16" rx="5" fill="#3a3a3a" />
+
+    <!-- legs -->
+    <path d="M420 392 L322 396" stroke-width="44" />
+    <path d="M420 392 L322 396" stroke="#2a2a2a" stroke-width="30" />
+    <path d="M322 396 L316 478" stroke-width="40" />
+    <path d="M322 396 L316 478" stroke="#2a2a2a" stroke-width="26" />
+    <path d="M326 478 H286 Q276 478 278 492 H330 Z" fill="#2a2a2a" />
+
+    <!-- torso -->
+    <path d="M328 258 Q336 224 372 222 Q418 222 426 268 L430 392 H338 Z" fill="#555" />
+    <!-- neck -->
+    <path d="M360 200 V226 H384 V200" fill="#fff" />
+    <!-- head with short hair -->
+    <ellipse cx="368" cy="168" rx="38" ry="44" fill="#fff" />
+    <path d="M328 156 Q326 118 368 120 Q404 120 410 160 L404 176 Q398 150 380 146 Q360 150 334 150 Z" fill="#2a2a2a" />
+    <!-- headset -->
+    <path d="M336 140 Q366 106 402 140" fill="none" stroke-width="9" />
+    <rect x="388" y="152" width="22" height="34" rx="9" fill="#3a3a3a" />
+    <path d="M394 182 Q384 204 352 200" fill="none" stroke-width="4" />
+
+    <!-- desk -->
+    <path d="M78 362 L64 498 M366 362 L380 498" />
+    <rect x="36" y="344" width="368" height="18" rx="4" fill="#2a2a2a" />
+
+    <!-- robot agent -->
+    <path d="M98 212 V196" fill="none" />
+    <circle cx="98" cy="190" r="7" fill="#555" />
+    <rect x="62" y="212" width="72" height="56" rx="16" fill="#fff" />
+    <rect x="74" y="224" width="48" height="32" rx="9" fill="#2a2a2a" stroke="none" />
+    <circle cx="88" cy="238" r="4.5" fill="#fff" stroke="none" />
+    <circle cx="108" cy="238" r="4.5" fill="#fff" stroke="none" />
+    <path d="M90 247 Q98 252 106 247" fill="none" stroke="#fff" stroke-width="3" />
+    <path d="M90 268 V278 H106 V268" fill="#8a8a8a" />
+    <rect x="64" y="278" width="68" height="66" rx="12" fill="#d0d0d0" />
+    <circle cx="98" cy="306" r="9" fill="#555" />
+    <!-- robot arm reaching for the laptop -->
+    <path d="M128 296 Q150 300 160 322" fill="none" stroke-width="20" />
+    <path d="M128 296 Q150 300 160 322" fill="none" stroke="#d0d0d0" stroke-width="8" />
+
+    <!-- laptop -->
+    <path d="M150 268 L258 262 L280 344 L162 344 Z" fill="#3a3a3a" />
+    <circle cx="214" cy="304" r="8" fill="#fff" stroke="none" />
+    <rect x="276" y="337" width="62" height="8" rx="3" fill="#555" />
+
+    <!-- arm -->
+    <path d="M362 250 L344 318 L280 330" stroke-width="40" fill="none" />
+    <path d="M362 250 L344 318 L280 330" stroke="#555" stroke-width="26" fill="none" />
+    <ellipse cx="274" cy="331" rx="15" ry="10" fill="#fff" />
+  </g>
+</svg>

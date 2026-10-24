@@ -3,6 +3,7 @@ layout: page
 title: AI-System Threat Modeling
 description: design reviews of LLM applications and agents before they go live
 importance: 1
+img: assets/img/services/threat-modeling.png
 ---
 
 LLM applications and agents add trust boundaries that classic threat models do not cover. Model output drives tools and API calls. Context is pulled from documents, tickets, e-mail and the web, and every one of those sources can carry attacker-controlled text. Agents often run with far broader permissions than their task needs. Many of these problems are cheap to fix on the whiteboard and expensive to fix after release, so I review the design of your AI system before it goes live, or before its next major change.

@@ -3,6 +3,7 @@ layout: page
 title: Agents for Security
 description: using LLM agents in your own security work, grounded in research
 importance: 2
+img: assets/img/services/agents.png
 ---
 
 LLM agents can now carry out parts of a penetration test on their own, from Linux privilege escalation to lateral movement in Active Directory. At the same time, the market is full of "autonomous pentesting" claims that are hard to verify. I help security teams separate what works from what demos well, and put agents to use where they actually help.

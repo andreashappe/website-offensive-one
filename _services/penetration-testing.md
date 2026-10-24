@@ -3,6 +3,7 @@ layout: page
 title: Penetration Testing
 description: manual, adversary-driven testing of applications, cloud and internal networks
 importance: 3
+img: assets/img/services/pentest.png
 ---
 
 A vulnerability scanner tells you which known issues exist. A penetration test tells you what an attacker can actually achieve: which weaknesses chain together, how far an initial foothold reaches, and which findings matter for your business. I test manually and think like an adversary, and I use tools to support that work, not to replace it.
@@ -17,6 +18,7 @@ I have done penetration testing professionally since 2012, first as a senior sec
 - **Cloud environments:** identity and permission misconfigurations, exposed services, tenant boundaries
 - **Internal networks and Active Directory:** privilege escalation, lateral movement and paths to domain dominance
 - **Assumed breach:** starting from a single compromised account or host, to answer "what happens when phishing works?"
+- **Detection and monitoring:** whether your security controls and monitoring notice the attack while it happens
 
 ## What you get
 
@@ -24,5 +26,6 @@ I have done penetration testing professionally since 2012, first as a senior sec
 - Risk ratings that reflect your context, with no CVSS inflation
 - A debrief with your team
 - A retest to verify that the fixes work
+- Results you can use as evidence for compliance and regulatory requirements
 
 [Back to all services]({{ '/services/' | relative_url }}) · [Get in touch](mailto:andreas@offensive.one)

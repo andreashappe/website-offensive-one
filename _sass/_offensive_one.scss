@@ -1,0 +1,97 @@
+/*******************************************************************************
+ * offensive.one style: monochrome palette and Signika/Heebo fonts, matching
+ * https://offensive.one. Loaded last from assets/css/main.scss, which passes
+ * `site_style` from _config.yml as $style; emits nothing unless it is "offensive-one".
+ ******************************************************************************/
+
+$style: "" !default;
+
+$oo-font-body: "Heebo", sans-serif;
+$oo-font-heading: "Signika", sans-serif;
+
+@if $style == "offensive-one" {
+  :root {
+    --oo-panel-bg: #f6f6f6;
+    --oo-heading-color: #040404;
+
+    --global-bg-color: #fff;
+    --global-text-color: #444444;
+    --global-text-color-light: #717171;
+    --global-theme-color: #121212;
+    --global-hover-color: #121212;
+    --global-hover-text-color: #fff;
+    --global-card-bg-color: #fff;
+    --global-divider-color: #eaeaea;
+    --global-footer-bg-color: #f6f6f6;
+    --global-footer-text-color: #444444;
+    --global-footer-link-color: #121212;
+  }
+
+  html[data-theme="dark"] {
+    --oo-heading-color: #fff;
+    --global-bg-color: #1c1c1c;
+    --global-text-color: #b4afb6;
+    --global-text-color-light: #8f8a91;
+    --global-theme-color: #fff;
+    --global-hover-color: #fff;
+    --global-hover-text-color: #121212;
+    --global-card-bg-color: #222222;
+    --global-divider-color: #3e3e3e;
+    --global-footer-bg-color: #222222;
+    --global-footer-text-color: #b4afb6;
+    --global-footer-link-color: #fff;
+  }
+
+  // Fonts
+
+  body {
+    font-family: $oo-font-body;
+    font-weight: 400;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .card-title,
+  .post-title,
+  .navbar-brand {
+    font-family: $oo-font-heading;
+    font-weight: 600;
+    color: var(--oo-heading-color);
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+  }
+
+  // Monochrome links are hard to tell from body text, so underline them in running text.
+  // The exclusions sit inside :where() so they add no specificity.
+  article :where(p, li, td) a:where(:not(.btn, .badge, .projects a, .publications a)) {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  // Cards
+
+  .card .card-text {
+    color: var(--global-text-color-light);
+  }
+
+  .projects .card figure {
+    margin: 0;
+  }
+
+  // The illustrations are dark line art on transparency; keep a light panel behind them in both modes
+  .projects .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    padding: 1rem;
+    background-color: var(--oo-panel-bg);
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+  }
+}

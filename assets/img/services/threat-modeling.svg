@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="4 30 480 480">
+  <!-- AI-system threat modeling: a person at a laptop in front of a data-flow diagram with an AI node,
+       a trust boundary and an untrusted context source. Style matches pentest.png, source-code.png, consultancy.png. -->
+  <g stroke="#111" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <!-- floating diagram panel -->
+    <rect x="28" y="36" width="270" height="178" rx="12" fill="#ececec" stroke="none" />
+    <g stroke="#555" stroke-width="4" fill="#fff">
+      <!-- user -->
+      <rect x="46" y="98" width="46" height="44" rx="6" />
+      <circle cx="69" cy="112" r="7" fill="#555" stroke="none" />
+      <path d="M57 134 Q69 119 81 134" fill="#555" stroke="none" />
+      <!-- arrows -->
+      <path d="M92 120 H134 M126 113 L134 120 L126 127" fill="none" />
+      <path d="M198 120 H230 M222 113 L230 120 L222 127" fill="none" />
+      <path d="M166 172 V152 M159 160 L166 152 L173 160" fill="none" />
+      <!-- AI node -->
+      <circle cx="166" cy="120" r="30" fill="#555" />
+      <path d="M166 100 Q169 117 186 120 Q169 123 166 140 Q163 123 146 120 Q163 117 166 100 Z" fill="#fff" stroke="none" />
+      <!-- data store -->
+      <path d="M236 102 V138 Q256 148 276 138 V102" />
+      <ellipse cx="256" cy="102" rx="20" ry="8" />
+      <!-- untrusted document feeding the model -->
+      <path d="M150 174 H174 L184 184 V204 H150 Z" />
+      <path d="M158 188 H176 M158 196 H172" fill="none" />
+    </g>
+    <!-- trust boundary -->
+    <path d="M114 56 V200" stroke="#888" stroke-width="3.5" stroke-dasharray="9 7" fill="none" />
+    <!-- warning -->
+    <path d="M214 160 L236 198 H192 Z" fill="#2a2a2a" stroke="none" />
+    <path d="M214 173 V185" stroke="#fff" stroke-width="4" />
+    <circle cx="214" cy="192" r="2.5" fill="#fff" stroke="none" />
+
+    <!-- floor shadow -->
+    <ellipse cx="250" cy="500" rx="225" ry="9" fill="#d6d6d6" stroke="none" />
+
+    <!-- chair -->
+    <rect x="404" y="262" width="30" height="150" rx="12" fill="#3a3a3a" />
+    <path d="M372 420 L362 498 M430 420 L440 498" />
+    <rect x="356" y="404" width="86" height="16" rx="5" fill="#3a3a3a" />
+
+    <!-- legs -->
+    <path d="M420 392 L322 396" stroke-width="44" />
+    <path d="M420 392 L322 396" stroke="#2a2a2a" stroke-width="30" />
+    <path d="M322 396 L316 478" stroke-width="40" />
+    <path d="M322 396 L316 478" stroke="#2a2a2a" stroke-width="26" />
+    <path d="M326 478 H286 Q276 478 278 492 H330 Z" fill="#2a2a2a" />
+
+    <!-- torso -->
+    <path d="M328 258 Q336 224 372 222 Q418 222 426 268 L430 392 H338 Z" fill="#8a8a8a" />
+    <!-- neck -->
+    <path d="M360 200 V226 H384 V200" fill="#fff" />
+    <!-- head, hair and bun -->
+    <circle cx="396" cy="118" r="20" fill="#2a2a2a" />
+    <ellipse cx="368" cy="168" rx="38" ry="44" fill="#fff" />
+    <path d="M330 160 Q326 118 368 118 Q410 118 408 168 Q404 150 392 144 Q368 152 340 142 Q333 150 330 160 Z" fill="#2a2a2a" />
+    <ellipse cx="398" cy="174" rx="8" ry="11" fill="#fff" />
+
+    <!-- desk -->
+    <path d="M78 362 L64 498 M366 362 L380 498" />
+    <rect x="36" y="344" width="368" height="18" rx="4" fill="#2a2a2a" />
+
+    <!-- plant -->
+    <path d="M86 300 Q60 268 64 236 Q92 262 86 300 Z" fill="#555" />
+    <path d="M90 300 Q96 258 124 246 Q122 282 90 300 Z" fill="#555" />
+    <path d="M88 300 Q80 284 88 262" fill="none" stroke-width="4" />
+    <path d="M66 300 H112 L106 344 H72 Z" fill="#3a3a3a" />
+
+    <!-- laptop -->
+    <path d="M150 268 L258 262 L280 344 L162 344 Z" fill="#3a3a3a" />
+    <circle cx="214" cy="304" r="8" fill="#fff" stroke="none" />
+    <rect x="276" y="337" width="62" height="8" rx="3" fill="#555" />
+
+    <!-- arm -->
+    <path d="M362 250 L344 318 L280 330" stroke-width="40" fill="none" />
+    <path d="M362 250 L344 318 L280 330" stroke="#8a8a8a" stroke-width="26" fill="none" />
+    <ellipse cx="274" cy="331" rx="15" ry="10" fill="#fff" />
+  </g>
+</svg>
