@@ -10,6 +10,32 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: # text shown under the profile picture; left empty on purpose
 
+# Homepage hero, services teaser and featured tools; rendered only with `site_style: paper-ink` (see _layouts/about.liquid).
+# The stats are maintained by hand: update them when publications or tools are added.
+hero:
+  kicker: Security researcher & consultant · Vienna
+  headline: Offensive security research, applied to your systems.
+  lede: At TU Wien I study how LLM agents attack real systems. Through offensive.one I test, audit and threat-model yours.
+  ctas:
+    - label: Work with me →
+      url: /services/
+    - label: Read the research
+      url: /publications/
+      style: outline
+  stats:
+    - 25 publications
+    - 2 open-source research tools
+    - pentesting since 2012
+  credentials:
+    - OSCP
+    - PNPT
+    - CRTE
+    - CARTP
+    - ISO 27001 auditor
+    - OWASP project lead
+services_teaser: true
+highlights: true
+
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # social icons live in the navbar instead (enable_navbar_social in _config.yml)
 

@@ -4,6 +4,7 @@ title: hackingBuddyGPT
 description: helping security researchers use LLMs for hacking in 50 lines of code or less
 img: assets/img/projects/hackingbuddygpt.png
 github: https://github.com/ipa-lab/hackingBuddyGPT
+featured: true
 importance: 1
 category: LLMs for Offensive Security
 related_publications: true

@@ -1,0 +1,32 @@
+<!-- Featured research tools (projects with `featured: true`) for the homepage; styled by _sass/_paper_ink.scss -->
+<section class="pi-section">
+  <h2>
+    <a href="{{ '/projects/' | relative_url }}" style="color: inherit">research &amp; tools</a>
+  </h2>
+  <div class="pi-highlights">
+    {% assign featured = site.projects | where: 'featured', true | sort: 'importance' %}
+    {% for project in featured %}
+      <div class="card hoverable">
+        <div class="card-body">
+          <span class="pi-tag">
+            {%- if project.github %}open-source tool{% else %}project{% endif -%}
+          </span>
+          <h3 class="card-title">
+            <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+          </h3>
+          <p class="card-text">{{ project.description }}</p>
+          <p class="pi-card-links mb-0">
+            <a href="{{ project.url | relative_url }}">Details →</a>
+            {% if project.github %}
+              <a href="{{ project.github }}"><i class="fa-brands fa-github"></i> Code</a>
+            {% endif %}
+          </p>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <p class="pi-section-more">
+    <a href="{{ '/projects/' | relative_url }}">All projects →</a>
+    <a href="{{ '/publications/' | relative_url }}">All publications →</a>
+  </p>
+</section>

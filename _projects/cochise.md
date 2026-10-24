@@ -4,6 +4,7 @@ title: Cochise
 description: autonomous assumed-breach penetration testing of Active Directory networks
 img: assets/img/projects/cochise.png
 github: https://github.com/andreashappe/cochise
+featured: true
 importance: 2
 category: LLMs for Offensive Security
 related_publications: true

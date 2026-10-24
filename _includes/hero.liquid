@@ -1,0 +1,29 @@
+<!-- Homepage hero, rendered from page.hero (see _pages/about.md); styled by _sass/_paper_ink.scss -->
+{% assign hero = page.hero %}
+<section class="pi-hero">
+  {% if hero.kicker %}
+    <p class="pi-kicker">{{ hero.kicker }}</p>
+  {% endif %}
+  <h1>{{ hero.headline }}</h1>
+  {% if hero.lede %}
+    <p class="pi-lede">{{ hero.lede }}</p>
+  {% endif %}
+  {% if hero.ctas %}
+    <div class="pi-ctas">
+      {% for cta in hero.ctas %}
+        {% if cta.url contains '://' or cta.url contains 'mailto:' %}
+          {% assign cta_url = cta.url %}
+        {% else %}
+          {% assign cta_url = cta.url | relative_url %}
+        {% endif %}
+        <a class="{% if cta.style == 'outline' %}btn-ink-outline{% else %}btn-ink{% endif %}" href="{{ cta_url }}">{{ cta.label }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+  {% if hero.stats %}
+    <p class="pi-stats">{{ hero.stats | join: ' · ' }}</p>
+  {% endif %}
+  {% if hero.credentials %}
+    <p class="pi-creds">{{ hero.credentials | join: ' · ' }}</p>
+  {% endif %}
+</section>

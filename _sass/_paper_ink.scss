@@ -1,0 +1,351 @@
+/*******************************************************************************
+ * "Paper & Ink" style: editorial paper/ink palette with one oxblood accent,
+ * Source Serif 4 headings, Inter body and JetBrains Mono metadata.
+ * Loaded last from assets/css/main.scss, which passes `site_style` from
+ * _config.yml as $style; emits nothing unless it is "paper-ink".
+ * The .pi-* classes style the homepage blocks in _includes/hero.liquid,
+ * services_teaser.liquid and highlights.liquid.
+ ******************************************************************************/
+
+$style: "" !default;
+
+$pi-serif: "Source Serif 4", Georgia, serif;
+$pi-sans: "Inter", system-ui, sans-serif;
+$pi-mono: "JetBrains Mono", ui-monospace, monospace;
+
+@if $style == "paper-ink" {
+  :root {
+    --pi-surface: #f1ede6;
+    --pi-rule: #e2ddd3;
+    --pi-accent: #8a1c1c;
+    --pi-on-accent: #faf8f4;
+
+    --global-bg-color: #faf8f4;
+    --global-text-color: #1c1b19;
+    --global-text-color-light: #6b665e;
+    --global-theme-color: #8a1c1c;
+    --global-hover-color: #8a1c1c;
+    --global-hover-text-color: #faf8f4;
+    --global-card-bg-color: #f1ede6;
+    --global-divider-color: #e2ddd3;
+    --global-footer-bg-color: #f1ede6;
+    --global-footer-text-color: #6b665e;
+    --global-footer-link-color: #1c1b19;
+    --global-back-to-top-bg-color: rgba(28, 27, 25, 0.4);
+    --global-back-to-top-text-color: #faf8f4;
+  }
+
+  html[data-theme="dark"] {
+    --pi-surface: #201e1b;
+    --pi-rule: #34312c;
+    --pi-accent: #d9776f;
+    --pi-on-accent: #161513;
+
+    --global-bg-color: #161513;
+    --global-text-color: #e9e4da;
+    --global-text-color-light: #a39c90;
+    --global-theme-color: #d9776f;
+    --global-hover-color: #d9776f;
+    --global-hover-text-color: #161513;
+    --global-card-bg-color: #201e1b;
+    --global-divider-color: #34312c;
+    --global-footer-bg-color: #201e1b;
+    --global-footer-text-color: #a39c90;
+    --global-footer-link-color: #e9e4da;
+    --global-back-to-top-bg-color: rgba(233, 228, 218, 0.4);
+    --global-back-to-top-text-color: #161513;
+  }
+
+  // Typography
+
+  body {
+    font-family: $pi-sans;
+    font-weight: 400;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .post-title,
+  .card-title,
+  .navbar-brand.title {
+    font-family: $pi-serif;
+    font-weight: 600;
+    color: var(--global-text-color);
+    letter-spacing: -0.01em;
+  }
+
+  code,
+  pre,
+  .post-meta,
+  .news th,
+  .abbr .badge {
+    font-family: $pi-mono;
+  }
+
+  .news th {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--global-text-color-light);
+  }
+
+  // Links: underline only in running text; the exclusions sit inside :where() so they add no specificity
+  article :where(p, li, td) a:where(:not(.btn, .badge, .projects a, .publications a, .pi-teaser a, .pi-highlights a)) {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+
+  // Navbar: the services entry doubles as the call to action
+
+  .navbar {
+    border-bottom: 1px solid var(--pi-rule);
+  }
+
+  .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+  }
+
+  .navbar.navbar-light .navbar-nav .nav-item:has(> a[href$="/services/"]) > .nav-link {
+    color: var(--pi-accent);
+    border: 1px solid var(--pi-accent);
+    border-radius: 999px;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+
+    &:hover {
+      color: var(--pi-on-accent);
+      background-color: var(--pi-accent);
+    }
+  }
+
+  // Cards: flat paper panels with a hairline border
+
+  .card {
+    border: 1px solid var(--pi-rule);
+    border-radius: 6px;
+    box-shadow: none;
+  }
+
+  .hoverable:hover {
+    box-shadow: none;
+    border-color: var(--pi-accent);
+  }
+
+  .card .card-text {
+    color: var(--global-text-color-light);
+  }
+
+  // Venue badges carry inline colors from _data/venues.yml and an !important text color from the gem's
+  // _publications.scss; render them as neutral mono labels instead
+  .abbr .badge {
+    background-color: transparent !important;
+    color: var(--global-text-color) !important;
+    border: 1px solid var(--pi-rule);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+
+    a {
+      color: var(--global-text-color) !important;
+    }
+  }
+
+  // Buttons
+
+  .btn-ink,
+  .btn-ink-outline {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid var(--pi-accent);
+    border-radius: 4px;
+    font-family: $pi-sans;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+    transition:
+      background-color 0.15s,
+      color 0.15s;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .btn-ink {
+    background-color: var(--pi-accent);
+    color: var(--pi-on-accent);
+
+    &:hover {
+      background-color: transparent;
+      color: var(--pi-accent);
+    }
+  }
+
+  .btn-ink-outline {
+    background-color: transparent;
+    color: var(--pi-accent);
+
+    &:hover {
+      background-color: var(--pi-accent);
+      color: var(--pi-on-accent);
+    }
+  }
+
+  // Homepage blocks
+
+  .pi-hero {
+    padding: 2.5rem 0 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--pi-rule);
+  }
+
+  .pi-kicker,
+  .pi-stats,
+  .pi-creds,
+  .pi-tag {
+    font-family: $pi-mono;
+    font-size: 0.8rem;
+    letter-spacing: 0.03em;
+    color: var(--global-text-color-light);
+  }
+
+  .pi-kicker {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  .pi-hero h1 {
+    font-size: clamp(2rem, 6vw, 3.25rem);
+    line-height: 1.1;
+    max-width: 20ch;
+    margin-bottom: 1rem;
+  }
+
+  .pi-lede {
+    font-size: 1.15rem;
+    line-height: 1.55;
+    max-width: 38rem;
+    color: var(--global-text-color);
+    margin-bottom: 1.5rem;
+  }
+
+  .pi-ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .pi-stats {
+    font-size: 0.9rem;
+    color: var(--global-text-color);
+    margin-bottom: 0.35rem;
+  }
+
+  .pi-creds {
+    margin-bottom: 0;
+  }
+
+  // Compact header shown under the hero instead of the stock name title
+  .pi-byline {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .pi-section {
+    margin-top: 2.5rem;
+  }
+
+  .pi-section-more {
+    font-size: 0.95rem;
+    margin-top: 0.75rem;
+
+    a {
+      margin-right: 1.25rem;
+    }
+  }
+
+  .pi-teaser {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-top: 1px solid var(--pi-rule);
+
+    @media (min-width: 576px) {
+      grid-template-columns: 1fr 1fr;
+      column-gap: 2rem;
+    }
+
+    a {
+      display: block;
+      padding: 0.9rem 0;
+      border-bottom: 1px solid var(--pi-rule);
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover .pi-teaser-title {
+        color: var(--pi-accent);
+      }
+    }
+  }
+
+  .pi-teaser-title {
+    display: block;
+    font-family: $pi-serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+  }
+
+  .pi-teaser-desc {
+    display: block;
+    color: var(--global-text-color-light);
+    font-size: 0.95rem;
+  }
+
+  .pi-highlights {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    @media (min-width: 576px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .card-body {
+      padding: 1.1rem 1.25rem;
+    }
+
+    .card-title {
+      font-size: 1.35rem;
+      margin: 0.35rem 0 0.4rem;
+    }
+
+    .card-title a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--pi-accent);
+      }
+    }
+
+    .card-text {
+      margin-bottom: 0.6rem;
+    }
+  }
+
+  .pi-tag {
+    text-transform: uppercase;
+  }
+
+  .pi-card-links a {
+    font-size: 0.9rem;
+    margin-right: 1rem;
+  }
+}

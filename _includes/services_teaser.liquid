@@ -1,0 +1,18 @@
+<!-- Compact list of all services for the homepage; styled by _sass/_paper_ink.scss -->
+<section class="pi-section">
+  <h2>
+    <a href="{{ '/services/' | relative_url }}" style="color: inherit">work with me</a>
+  </h2>
+  <div class="pi-teaser">
+    {% assign sorted_services = site.services | sort: 'importance' %}
+    {% for service in sorted_services %}
+      <a href="{{ service.url | relative_url }}">
+        <span class="pi-teaser-title">{{ service.title }}</span>
+        <span class="pi-teaser-desc">{{ service.description }}</span>
+      </a>
+    {% endfor %}
+  </div>
+  <p class="pi-section-more">
+    <a href="{{ '/services/' | relative_url }}">All services and how to engage →</a>
+  </p>
+</section>
